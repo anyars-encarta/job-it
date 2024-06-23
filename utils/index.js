@@ -16,7 +16,8 @@ export const data = [
         job_employment_type: 'Remote',
         job_description: 'Perform any duty assigned to you by your boss',
         job_highlights: { 
-                Qualifications: ['BSc Computer Science'] 
+                Qualifications: ['BSc Computer Science'],
+                Responsibilities: ['Do something', 'Develop apps', 'Test Codes'] 
             }
     },
     {
@@ -28,7 +29,8 @@ export const data = [
         job_employment_type: 'Full Time',
         job_description: 'Perform any duty assigned to you by your boss',
         job_highlights: { 
-            Qualifications: ['React Native'] 
+            Qualifications: ['React Native'] ,
+            Responsibilities: ['Do something', 'Develop apps', 'Test Codes']
         }
     },
     {
@@ -40,7 +42,8 @@ export const data = [
         job_employment_type: 'Contract',
         job_description: 'Perform any duty assigned to you by your boss',
         job_highlights: { 
-            Qualifications: ['JavaScript'] 
+            Qualifications: ['JavaScript'],
+            Responsibilities: ['Do something', 'Develop apps', 'Test Codes'] 
         }
     },
     {
@@ -52,7 +55,8 @@ export const data = [
         job_employment_type: 'Temporal',
         job_description: 'Perform any duty assigned to you by your boss',
         job_highlights: { 
-            Qualifications: ['Ruby on Rails'] 
+            Qualifications: ['Ruby on Rails'],
+            Responsibilities: ['Do something', 'Develop apps', 'Test Codes']
         }
     },
     {
@@ -64,7 +68,8 @@ export const data = [
         job_employment_type: 'Full Time',
         job_description: 'Perform any duty assigned to you by your boss',
         job_highlights: { 
-            Qualifications: ['Next JS'] 
+            Qualifications: ['Next JS'],
+            Responsibilities: ['Do something', 'Develop apps', 'Test Codes']
         }
     },
     {
@@ -76,7 +81,8 @@ export const data = [
         job_employment_type: 'Remote',
         job_description: 'Perform any duty assigned to you by your boss',
         job_highlights: { 
-            Qualifications: ['React'] 
+            Qualifications: ['React'],
+            Responsibilities: ['Do something', 'Develop apps', 'Test Codes'] 
         }
     }
 ]
