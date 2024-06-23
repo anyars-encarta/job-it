@@ -1,5 +1,5 @@
 export const checkImageURL = (url) => {
-    if(!url) return false
+    if (!url) return false
     else {
         const pattern = new RegExp('^https?:\\/\\/.+\\.(png|jpg|jpeg|bmp|gif|webp)$', 'i');
         return pattern.test(url);
@@ -15,10 +15,11 @@ export const data = [
         job_country: 'Ghana',
         job_employment_type: 'Remote',
         job_description: 'Perform any duty assigned to you by your boss',
-        job_highlights: { 
-                Qualifications: ['BSc Computer Science'],
-                Responsibilities: ['Do something', 'Develop apps', 'Test Codes'] 
-            }
+        job_highlights: {
+            Qualifications: ['BSc Computer Science'],
+            Responsibilities: ['Do something', 'Develop apps', 'Test Codes']
+        },
+        job_google_link: 'https://anyars-portfolio.vercel.app/'
     },
     {
         job_id: 2,
@@ -28,10 +29,11 @@ export const data = [
         job_country: 'Nigeria',
         job_employment_type: 'Full Time',
         job_description: 'Perform any duty assigned to you by your boss',
-        job_highlights: { 
-            Qualifications: ['React Native'] ,
+        job_highlights: {
+            Qualifications: ['React Native'],
             Responsibilities: ['Do something', 'Develop apps', 'Test Codes']
-        }
+        },
+        job_google_link: 'https://anyars-portfolio.vercel.app/'
     },
     {
         job_id: 3,
@@ -41,10 +43,11 @@ export const data = [
         job_country: 'Nairobi',
         job_employment_type: 'Contract',
         job_description: 'Perform any duty assigned to you by your boss',
-        job_highlights: { 
+        job_highlights: {
             Qualifications: ['JavaScript'],
-            Responsibilities: ['Do something', 'Develop apps', 'Test Codes'] 
-        }
+            Responsibilities: ['Do something', 'Develop apps', 'Test Codes']
+        },
+        job_google_link: 'https://anyars-portfolio.vercel.app/'
     },
     {
         job_id: 4,
@@ -54,10 +57,11 @@ export const data = [
         job_country: 'Cameroon',
         job_employment_type: 'Temporal',
         job_description: 'Perform any duty assigned to you by your boss',
-        job_highlights: { 
+        job_highlights: {
             Qualifications: ['Ruby on Rails'],
             Responsibilities: ['Do something', 'Develop apps', 'Test Codes']
-        }
+        },
+        job_google_link: 'https://anyars-portfolio.vercel.app/'
     },
     {
         job_id: 5,
@@ -67,10 +71,11 @@ export const data = [
         job_country: 'Ukraine',
         job_employment_type: 'Full Time',
         job_description: 'Perform any duty assigned to you by your boss',
-        job_highlights: { 
+        job_highlights: {
             Qualifications: ['Next JS'],
             Responsibilities: ['Do something', 'Develop apps', 'Test Codes']
-        }
+        },
+        job_google_link: 'https://anyars-portfolio.vercel.app/'
     },
     {
         job_id: 6,
@@ -80,9 +85,10 @@ export const data = [
         job_country: 'Mauritania',
         job_employment_type: 'Remote',
         job_description: 'Perform any duty assigned to you by your boss',
-        job_highlights: { 
+        job_highlights: {
             Qualifications: ['React'],
-            Responsibilities: ['Do something', 'Develop apps', 'Test Codes'] 
-        }
+            Responsibilities: ['Do something', 'Develop apps', 'Test Codes']
+        },
+        job_google_link: 'https://anyars-portfolio.vercel.app/'
     }
 ]

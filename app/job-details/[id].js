@@ -28,8 +28,6 @@ const JobDetails = () => {
     const job_id = params.id
     // const {data, isLoading, error, refetch} = useFetch('job-details', {job_id: params.id});
 
-    console.log('Job Detail in essence: ', job_id)
-
     const [refreshing, setRefreshing] = useState(false);
     const [activeTab, setActiveTab] = useState(tabs[0]);
 
@@ -108,6 +106,8 @@ const JobDetails = () => {
                     </View>
                 )}
             </ScrollView>
+
+            <JobFooter url={data[0]?.job_google_link ?? 'https://careers.google.com/jobs/results'} />
             </>
         </SafeAreaView>
     )
