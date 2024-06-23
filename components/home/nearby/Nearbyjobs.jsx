@@ -7,14 +7,16 @@ import styles from './nearbyjobs.style';
 import { COLORS } from '../../../constants';
 import NearbyJobCard from '../../common/cards/nearby/NearbyJobCard';
 import useFetch from '../../../hook/useFetch';
+import { data } from '../../../utils';
 
 const Nearbyjobs = () => {
   const router = useRouter();
-  
-  const { data, isLoading, error } = useFetch('search', {
-    query: 'React developer',
-    num_pages: 1
-  });
+  const isLoading = false;
+  const error = null;
+  // const { data, isLoading, error } = useFetch('search', {
+  //   query: 'React developer',
+  //   num_pages: 1
+  // });
 
   return (
     <View style={styles.container}>
