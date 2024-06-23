@@ -14,6 +14,9 @@ import {
 } from '../../components';
 import { COLORS, icons, SIZES } from '../../constants';
 // import { useFetch } from '../../hook/useFetch';
+
+const tabs = ['About', 'Qualifications', 'Responsibilities'];
+
 import { data } from '../../utils';
 
 const JobDetails = () => {
@@ -28,6 +31,7 @@ const JobDetails = () => {
     console.log('Job Detail in essence: ', job_id)
 
     const [refreshing, setRefreshing] = useState(false);
+    const [activeTab, setActiveTab] = useState(tabs[0]);
 
     const onRefresh = () => {};
 
@@ -73,7 +77,9 @@ const JobDetails = () => {
                         />
 
                         <JobTabs 
-                        
+                            tabs={tabs}
+                            activeTab={activeTab}
+                            setActiveTab={setActiveTab}
                         />
                     </View>
                 )}
