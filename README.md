@@ -4,7 +4,7 @@
 
  <!-- LOGO -->
 
-  <img src="./public/images/app.png" alt="logo" width="160"  height="auto" />
+  <img src="./assets/app_image.png" alt="logo" width="160"  height="auto" />
   <br/>
 
 <!-- MAIN HEADING -->
@@ -39,30 +39,25 @@
 <!-- INTRO -->
 # 📖 Job-it<a name="about-project"></a>
 
-> EncarToom is a Zoom Clone app for Video Meetings. Users could create Instant Meetings, schedule meetings, record meetings as well as view previous meetings.
+> Job-it is a mobile app that allows users search for jobs. It also allows users find jobs nearby and apply. It was built with react native.
 
 ## 🛠 Built With <a name="built-with"></a>
 1. React
-2. Clerk
-3. Radix UI
-4. Stream-io
-5. Lucide-react
-6. NextJS
-7. React-datepicker
-8. Tailwind CSS
+2. React Native
+3. Expo
+4. Axios
+5. Rapid API
+
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">React</a></li>
-    <li><a href="https://clerk.com/">Clerk</a></li>
-    <li><a href="https://www.radix-ui.com/">Radix UI</a></li>
-    <li><a href="https://www.stremio.com/">Stream-io</a></li>
-    <li><a href="https://lucide.dev/guide/packages/lucide-react">Lucide-react</a></li>
-    <li><a href="https://nextjs.org/">NextJS</a></li>
-    <li><a href="https://reactdatepicker.com/">React-datepicker</a></li>
-    <li><a href="https://tailwindcss.com/">Tailwind CSS</a></li>
+    <li><a href="https://reactnative.dev/">React Native</a></li>
+    <li><a href="https://expo.dev/">Expo</a></li>
+    <li><a href="https://axios-http.com/">Axios</a></li>
+    <li><a href="https://rapidapi.com/hub">Rapid API</a></li>
   </ul>
 </details>
 
@@ -70,13 +65,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-> - User Authentication
-> - Create Instant Meeting
-> - Schedule Meetings
-> - Record Meetings
-> - View Meeting Recordings
-> - Join Meetings
-> - Personal Room
+> - Search for popular jobs
+> - Find nearby jobs
+> - Apply for jobs
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,7 +75,7 @@
 
 LIVE DEMO
 
-> Visit the [live](https://encarta-zoom-clone.vercel.app/) version of the project here.
+> Live page coming soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,8 +86,8 @@ LIVE DEMO
 > To get a local copy of the project, use this link:
 > 
 ```sh
-cd encarta-zoom-clone
-https://github.com/anyars-encarta/encarta-zoom-clone.git
+cd job-it
+https://github.com/anyars-encarta/job-it.git
 ```
 
 <!-- SETUP -->
@@ -105,7 +96,7 @@ https://github.com/anyars-encarta/encarta-zoom-clone.git
 To setup this project, run this command:
 
 ```sh
-npm run dev
+npm install
 ```
 ### Prerequisites
 
@@ -124,8 +115,10 @@ Install this project with Iroko.
 To run the project, execute the following command:
 
 ```sh
-npm run dev
+npm start
 ```
+Then scan the QR Code with your phone. Ensure to install Expo Go on your phone.
+
 ### Run tests
 To test the project, execute the following command:
 ```sh
@@ -134,10 +127,7 @@ npm run test
 ### Deployment
 
 You can deploy this project using:
-> 1. Netlify
-> 2. Vercel
-> 3. Render
-> 4. Any Hosting site
+> 1. Expo CLI
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,9 +145,9 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add Cancel Scheduled Meetings**
-- [ ] **Add Delete Recorded Meetings**
-- [ ] **Add Chats in Meetings**
+- [ ] **Work on Mobile Menu**
+- [ ] **Implement Like Jobs**
+- [ ] **Implement direct messaging**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -192,7 +182,7 @@ Contributions, issues, and feature requests are welcome!
 
 - **What new features should be expected in the next release of the project?**
 
-  - I am currently working on adding Cancel Scheduled Meetings, Delete Meeting Recordings and Chat during Meetings.
+  - I am currently working on the Mobile menu, Liking jobs and direct messaging.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
