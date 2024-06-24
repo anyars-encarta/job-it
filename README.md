@@ -39,7 +39,7 @@
 <!-- INTRO -->
 # 📖 Job-it<a name="about-project"></a>
 
-> Job-it is a mobile app that allows users search for jobs. It also allows users find jobs nearby and apply. It was built with react native.
+> Job-it is a mobile app that allows users search for jobs. It also allows users find jobs nearby and apply. It was built with React, React Native, Expo, Axios, and Rapid API.
 
 ## 🛠 Built With <a name="built-with"></a>
 1. React
